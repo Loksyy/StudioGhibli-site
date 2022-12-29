@@ -3,7 +3,6 @@ const index = document.querySelector('#main');
 
 const ghibliAPI = async () => {
     const res = await axios.get('data.json');
-    console.log(res);
     const data = res.data.films;
     data.forEach(ghibliMovie);
     function ghibliMovie(movie) {
