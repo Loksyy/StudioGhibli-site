@@ -5,7 +5,7 @@ It is relatively the same code except that its using a local json file.
 ## How to use this website
 Clone the repository
 ```
-git clone https://github.com/Loksyy/ghiblitsite
+git clone https://github.com/Loksyy/StudioGhibli-site
 ```
 Install dependencies
 ```
