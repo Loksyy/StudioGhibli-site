@@ -1,0 +1,28 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"
+            integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Studio Ghibli by Loksy</title>
+    </head>
+
+    <body>
+        <div id="logo">
+            <img src="logo.png">
+            <h1>About</h1>
+            <p>This website is a collection of every Studio Ghibli movie, it's a small project I worked on using
+                primarily JavaScript and a REST API accessed through
+                <a href="https://axios-http.com/docs/intro">axios</a>. <br> Unfortunately the API has been taken down so Im using a the json file. <br>
+                To simplify the logic, the script is looping through the JSON data, takes what it needs and then pushes
+                it as html elements.</p>
+        </div>
+        <div id="main"></div>
+    </body>
+    <script type="module" src="app.js"></script>
+
+</html>
