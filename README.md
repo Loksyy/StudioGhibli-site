@@ -1,6 +1,6 @@
 # Studio Ghibli Website
-Since the API isnt hosted on the internet anymore I decided to make a quick modification of [my previous website](https://github.com/Loksyy/ghibliwebsite).
-It is relatively the same code except that its using a local json file.
+Since the Studio Ghibli API isnt hosted on the internet anymore I decided to make a quick modification of a previous project.
+instead of the REST API I used a json file.
 
 ## How to use this website
 Clone the repository
